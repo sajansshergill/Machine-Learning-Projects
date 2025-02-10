@@ -2,9 +2,9 @@
 This is an advanced-level project that involves using genomics data to predict how patients will respond to different drugs, which is a crucial aspect of personalized medicine.
 
 ## 📌 Project Overview
-# The goal is to develop a deep learning model that predicts a patient’s response to a given drug based on their genomic profile.
-# The dataset will include gene expression levels, mutations, and drug response labels.
-# We will use neural networks (MLP), CNNs, or even transformer-based architectures for predictions.
+The goal is to develop a deep learning model that predicts a patient’s response to a given drug based on their genomic profile.
+The dataset will include gene expression levels, mutations, and drug response labels.
+We will use neural networks (MLP), CNNs, or even transformer-based architectures for predictions.
 
 
 ## 🔹 Steps to Implement the Project
