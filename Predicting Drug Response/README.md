@@ -8,7 +8,7 @@ We will use neural networks (MLP), CNNs, or even transformer-based architectures
 
 
 ## 🔹 Steps to Implement the Project
-1️⃣ Data Collection
+# 1️⃣ Data Collection
 Use publicly available datasets like:
 GDSC (Genomics of Drug Sensitivity in Cancer)
 CCLE (Cancer Cell Line Encyclopedia)
