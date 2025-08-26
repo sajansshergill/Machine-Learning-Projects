@@ -1,0 +1,16 @@
+# Let's generate a requirements.txt with commonly used stable versions for these libraries
+
+requirements_with_versions = {
+    "numpy": "1.26.4",
+    "pandas": "2.2.2",
+    "matplotlib": "3.9.2",
+    "seaborn": "0.13.2"
+}
+
+requirements_text = "\n".join([f"{lib}=={ver}" for lib, ver in requirements_with_versions.items()])
+
+requirements_path_versioned = "/mnt/data/requirements.txt"
+with open(requirements_path_versioned, "w") as f:
+    f.write(requirements_text)
+
+requirements_path_versioned
