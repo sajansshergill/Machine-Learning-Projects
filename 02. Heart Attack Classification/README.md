@@ -48,7 +48,30 @@ The dataset used contains various clinical attributes and a target variable indi
 - Data Inspection: Analyze basic statistics and inspect for missing values, outliers, and inconsistencies.
 - Correlation Analysis: Evaluate feature correlations using heatmaps and correlation coefficients to identify potential relationships
   with the target variable.
+  
 ### 2. Visualization
 - Distribution Analysis: Visualize distributions of key features like Age, RestingBP, Cholestrol, and others using histograms and boxplots.
 - Heart Attack Distribution: Visualize the proportion of patients with and without a heart attack (target variable) using bar plots.
-- 
+- Piarwise Feature Interaction: Explore feature relationships, such as MaxHR vs. Oldpeak, and how they influence heart attack risk.
+
+### 3. Feature Engineering
+- Missing Value Handling: Detect and handle missing values.
+- OutlieR Detection and Handling: Identify and handle outliers for features like RestingBP and Cholestrol to improve data quality.
+- Feature Extraction: Creat new meaningful features based on existing ones, like binning age ranges or deriving features based on patient conditions.
+- Encoding & Scaling: Perfom encoding of categorical variable (e.g., ChestPainType, Sex) and scale numerical features to standardize the data.
+
+### 4. Modeling
+- Multiple Models: Train several machine learning models, including:
+     - Logistic Regression
+     - K-Nearest Neighbors (KNN)
+     - Decision Tree
+These models are evaluate fof their performance in predicting heart attack risk.
+
+- Model Evaluation: Compare the models based on accuracy, precision, recall, and other relevant metrics to choose the best-performing model for this dataset.
+     - Note: The notebook does not include hyperparameter tuning. The model is kept simple and straightforward to serve as a baseline for future improvements.
+ 
+## For Future Work
+- Hyperparameter Tuning: Apply techniques like grid search or random search to optimize model parameters.
+- Advanced Models: Experiment with more complex alogorithms like Random Forest, XGBoost, or Gradient Boosing to improve prediction performance.
+- Featur Importance: Use advanced techniques such as SHAP values or feature importance from tree-based models to better interpret the model's decisions.
+
