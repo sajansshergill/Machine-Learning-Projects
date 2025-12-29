@@ -1,4 +1,4 @@
-# Model Cost Prediction Project
+# Medical Cost Prediction Project
 
 This project aims to predict medical insurance costs based on various factors such as age, sex, BMI, children, smoking habits, and region.
 The notebook explores the dataset through detailed explortory data analysis (EDA), feature engineering, and build machine learning models 
